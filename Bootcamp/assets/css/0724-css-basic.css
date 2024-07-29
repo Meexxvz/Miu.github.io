@@ -1,0 +1,38 @@
+/* External CSS */
+body{
+  background-color: rgb(224, 118, 99);
+}
+/* universal selector */
+/* *{
+  color: red;
+} */
+
+p{
+  text-align: left;
+  background-color: white;
+}
+
+/* note-- class:letter first */
+.p1{
+  background-color: yellow;
+}
+
+/*  */
+#id-name{
+  font-style: italic;
+  color: black;
+}
+
+.name{
+  text-align: center; 
+  color:red
+}
+
+/* priority */
+h2{
+  color:blue;
+}
+
+.parent li{
+  color: rgb(147, 141, 141)
+}

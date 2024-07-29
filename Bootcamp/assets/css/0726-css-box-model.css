@@ -1,0 +1,39 @@
+body{
+  background-color: lightgreen;
+}
+.container{
+  border:10px solid yellow;
+  /* height: 650px; */
+  /* 80% of your screen */
+  /* width: 80%; */
+  /* Top  right Bottom left*/
+  margin: 10px 20px 30px 40px;
+  padding: 10px 20px 30px 40px;
+}
+.solid{
+  border: 10px solid tomato;
+  width: 75%;
+  margin: 10px 20px 30px 40px;
+}
+.dotted{
+  width: 75%;
+  border: 10px dotted blue;
+  margin: 10px 20px 30px 40px;
+}
+
+.dashed{
+  width: 75%;
+  border: 10px dashed rgb(119, 26, 26);
+  margin: 10px 20px 30px 40px;
+}
+.double{
+  width: 75%;
+  border: 10px double orange;
+  margin: 10px 20px 30px 40px;
+}
+.radius{
+  border: 10px solid teal;
+  /* radius corner */
+  border-radius: 50px;
+  
+}

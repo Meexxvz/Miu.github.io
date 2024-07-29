@@ -1,0 +1,24 @@
+ul li{
+  /* 横並びになる */
+  display: inline;
+}
+
+a{
+  background-color: cornflowerblue;
+  /* 縦並びになる */
+  display: block;
+}
+
+span{
+  /* 非表示 */
+  display: none;
+}
+
+img{
+  width: 50%;
+  position: absolute;
+  left: 0px;
+  top:0px;
+  /* behind text :negative number*/
+  z-index: -1;
+}

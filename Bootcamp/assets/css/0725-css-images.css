@@ -1,0 +1,42 @@
+img{
+  height: 30%;
+  width:30%;
+}
+
+/* .. :go to onother file */
+body{
+  /* background-image: url('../images/rabbit3.jpeg'); */
+/* body{
+  background-image: url('../images/rabbit3.jpeg'); */
+  /* background-image: url('../images/rab.jfif'); */
+  /* No repeat */
+  /* background-repeat: no-repeat; */
+  /* 横方向に増殖 */
+  /* background-repeat: repeat-x; */
+  /* 縦方向に増殖 */
+  /* background-repeat: repeat-y;
+  background-repeat: repeat; */
+/* cover resize the background image to cover the entire container even if it has to stretch the image or cut a little bit off one of the edges.*/
+  /* background-size: cover; */
+  /* resize the background image to make sure image is fully visible */
+  /* background-size: contain; */
+}
+
+
+#box-1{
+  height:200px;
+  background-image: url(../images/rabbit3.jpeg);
+  /* containがないとimageがcutされる */
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  /* left top,left center,left bottom,center top,center center, center bottom, right top, right center, right bottom  */
+  /*  */
+  background-attachment: fixed;
+  /* fixed- picture not moving if you scroll up and down
+  scroll - picture moves up and down */
+  /* background: bg-color bg-image bg-repeat bg-attachment bg-position; */
+  /* background: yellow */
+  border: 1px solid black;
+
+}

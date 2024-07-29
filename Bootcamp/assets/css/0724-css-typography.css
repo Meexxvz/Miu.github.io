@@ -1,0 +1,77 @@
+
+/* font-family */
+h1{
+  color: rgb(220, 42, 72);
+  font-family: serif;
+  font-size: 35px;
+  /* 100~900 */
+  font-weight: 600;
+}
+p{
+  color:rgba(0,0,255,.5);
+  font-family: sans-serif;
+  font-size: 1em;
+}
+
+h2{
+  color: #5dff;
+  font-family:monospace;
+  font-size: 5%;
+}
+.font-weight-bold{
+  font-weight: bold;
+}
+.font-weight-500{
+  font-weight: 500;
+}
+
+/* font-style ------------------*/
+.italic{
+  font-style: italic;
+  text-transform: lowercase;
+  text-decoration: underline;
+}
+.oblique{
+  font-style: oblique;
+  text-transform: uppercase;
+  /* 取り消し線 */
+  /* ex:discount , update */
+  text-decoration: line-through;
+}
+.normal{
+  font-style: normal;
+  /* 大文字にしてくれる */
+  text-transform: capitalize;
+  text-decoration: overline;
+}
+/*  */
+.center{
+  text-align: center;
+  /* horizon-vartical-ぼかし具合-color */
+  text-shadow:2px 4px 5px #961204;
+}
+.right{
+  text-align: right;
+}
+.left{
+  text-align: left;
+}
+/* Indent---------------------- */
+.text-indent-px{
+  text-indent: 50px;
+}
+.text-indent-percent{
+  text-indent: 5%;
+}
+.text-indent-em{
+  text-indent: 5em;
+}
+/* Letter(word) Spacing---------- */
+.letter-space-5px{
+  font-size: 30px;
+  letter-spacing: 5px;
+}
+/* 10px space every word */
+.word-spacing{
+  word-spacing: 10px;
+}

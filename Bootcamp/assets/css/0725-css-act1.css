@@ -1,0 +1,19 @@
+table{
+  border:5px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  font-family: sans-serif;
+}
+img{
+  height: 30px;
+  width: 30px;
+}
+
+th{
+  background: salmon;
+  color:white;
+}
+
+.orange{
+  background-color: rgb(255, 194, 82);
+}

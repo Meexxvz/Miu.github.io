@@ -1,0 +1,49 @@
+.right img{
+  width: 170px;
+  height: 170px;
+  margin-left: 15px;
+  /* 右に寄せるかつTextを詰める */
+  float: right;
+}
+
+.left img{
+  width: 170px;
+  height: 170px;
+  margin-right: 15px;
+  /* textを詰めることが可能 */
+  float: left;
+}
+
+.div1{
+  float:left;
+  padding: 10px;
+  border: 3px solid rgb(154, 230, 1);
+}
+
+.div2{
+  padding: 10px;
+  border: 3px solid red;
+ 
+}
+
+.an{
+  padding: 10px;
+  border: 3px solid blue;
+}
+
+.div3{
+  float: left;
+  padding: 10px;
+  border:3px solid rgb(110, 165, 0);
+}
+
+  
+.div4{
+  padding: 10px;
+  border:3px solid red;
+  /* move below the line */
+  clear: left;
+  /* div3のrightに来る */
+  /* clear: right; */
+
+}

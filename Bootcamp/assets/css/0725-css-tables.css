@@ -1,0 +1,20 @@
+/* th.tdが無いと中身の枠がなくなる */
+table, th, td{
+  /* 枠をつける */
+  border:5px solid red;
+  /* no space.*/
+  border-collapse: collapse;
+  /* like a border="1" */
+  /* border-collapse: separate;  */
+  /* border-spacing: 10px; */
+}
+
+th{
+  background: black;
+  color: white;
+
+}
+
+td{
+  background-color: pink;
+}

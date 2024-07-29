@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Table</title>
+</head>
+<body>
+  <table border="1">
+    <tr>
+      <!-- tr:row th:Table Header(bold) td:Table data -->
+      <th>1</th>
+      <th>2</th>
+      <th>3</th>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>5</td>
+      <td>6</td>
+    </tr>
+  </table>
+  <br>
+  <table border="1">
+    <!-- thead:table header -->
+    <thead>
+      <th>Name</th>
+      <th>Age</th>
+      <th colspan="2">Email</th>
+      <th></th>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>John</td>
+        <td>25</td>
+        <td>j@gmail.com</td>
+        <td rowspan="2">jhon@gmail.com</td>
+      </tr>
+      <tr>
+        <td>Jane</td>
+        <td>27</td>
+        <td>jane@gmail.com</td>
+      </tr>
+
+
+    </tbody>
+  </table>
+</body>
+</html>
